@@ -1,52 +1,39 @@
-# Prerequisites
-*.d
+# Visual Studio generated files.
+Debug
+Release
+Spica.sdf
+.vs
 
-# Object files
-*.o
-*.ko
+# Code::Blocks generated files.
+bin
+obj
+*.depend
+*.layout
+
+# depend generated files.
+depend.out
+
+# Doxygen generated files.
+api
+
+# Open Watcom generated files.
+owbuild
+*.err
 *.obj
-*.elf
+*.lb1
+*.mk
+*.mk1
+SpicaC.lib
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# LLVM generated files.
+*.bc
 
-# Precompiled Headers
-*.gch
-*.pch
+# gcc generated files.
+*.o
+libSpicaC.a
+check/CheckC
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# LaTeX generated files.
+*.aux
+*.log
+*.pdf
