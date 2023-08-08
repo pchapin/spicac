@@ -1,7 +1,7 @@
 /*!
  * \file    WorkQueue.c
  * \brief   Implementation of a work queue for use in multi-threaded programs.
- * \author  Peter C. Chapin <PChapin@vtc.vsc.edu>
+ * \author  Peter Chapin <spicacality@kelseymountain.org>
  */
 
 #include <stdlib.h>

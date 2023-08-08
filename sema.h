@@ -1,10 +1,7 @@
-/****************************************************************************
-FILE    : sema.h
-SUBJECT : Interface to semaphore abstract type.
-AUTHOR  : (C) Copyright 2012 by Peter C. Chapin <PChapin@vtc.vsc.edu>
-
-This header file specifies the interface to a semphore abstract type.
-****************************************************************************/
+/*! \file    sema.c
+ *  \brief   Interface to a semaphore abstract type.
+ *  \author  Peter Chapin <spicacality@kelseymountain.org>
+ */
 
 #ifndef SEMA_H
 #define SEMA_H

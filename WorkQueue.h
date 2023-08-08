@@ -1,8 +1,7 @@
 /*!
  * \file    WorkQueue.h
  * \brief   Interface to a work queue for use in multi-threaded programs.
- * \author  Peter C. Chapin <PChapin@vtc.vsc.edu>
- *
+ * \author  Peter Chapin <spicacality@kelseymountain.org>
  */
 
 #ifndef WORKQUEUE_H

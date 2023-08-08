@@ -1,6 +1,6 @@
 /*! \file Tree.h
  *  \brief Declarations of the binary search trees and their operations.
- *  \author Peter C. Chapin <PChapin@vtc.vsc.edu>
+ *  \author Peter Chapin <spicacality@kelseymountain.org>
  *  \date May 20, 2012
  */
 

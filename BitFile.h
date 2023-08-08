@@ -1,6 +1,6 @@
 /*! \file    BitFile.h
  *  \brief   An abstract type that allows I/O of a file on a bit-by-bit basis.
- *  \author  Peter C. Chapin <PChapin@vtc.vsc.edu>
+ *  \author  Peter Chapin <spicacality@kelseymountain.org>
  */
 
 #ifndef BITFILE_H
@@ -31,9 +31,9 @@ extern "C" {
 #endif
 
 int    open_bit( BitFile *bf, const char *the_name, BitFileMode the_mode );
-size_t read_bitheader( BitFile *bf, void *buffer, size_t number_of_bytes );
+size_t read_bit_header( BitFile *bf, void *buffer, size_t number_of_bytes );
 int    get_bit( BitFile *bf );
-size_t write_bitheader( BitFile *bf, const void *buffer, size_t number_of_bytes );
+size_t write_bit_header( BitFile *bf, const void *buffer, size_t number_of_bytes );
 int    put_bit( BitFile *bf, int bit_value );
 int    close_bit( BitFile *bf );
 

@@ -1,8 +1,7 @@
 /*! \file    Interval.c
-    \brief   Implementation of floating point intervals.
-    \author  Peter C. Chapin <PChapin@vtc.vsc.edu>
-
-*/
+ *  \brief   Implementation of floating point intervals.
+ *  \author  Peter Chapin <spicacality@kelseymountain.org>
+ */
 
 #include "Interval.h"
 

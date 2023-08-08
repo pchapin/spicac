@@ -1,8 +1,7 @@
 /*! \file    Interval.h
-    \brief   Handling of floating point intervals.
-    \author  Peter C. Chapin <PChapin@vtc.vsc.edu>
-
-*/
+ *  \brief   Handling of floating point intervals.
+ *  \author  Peter Chapin <spicacality@kelseymountain.org>
+ */
 
 #ifndef INTERVAL_H
 #define INTERVAL_H

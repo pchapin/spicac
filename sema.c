@@ -1,9 +1,7 @@
-/****************************************************************************
-FILE    : sema.c
-SUBJECT : Implementation of a semaphore abstract type.
-AUTHOR  : (C) Copyright 2008 by Peter C. Chapin <PChapin@vtc.vsc.edu>
-
-****************************************************************************/
+/*! \file    sema.c
+ *  \brief   Implementation of a semaphore abstract type.
+ *  \author  Peter Chapin <spicacality@kelseymountain.org>
+ */
 
 #include "sema.h"
 

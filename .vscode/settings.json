@@ -1,7 +1,10 @@
 {
     "cppbuild.isEnabled": false,
     "cSpell.words": [
-        "Rexx"
+        "BITFILE",
+        "charint",
+        "splintlib",
+        "THREADPOOL"
     ],
     "C_Cpp.default.compilerPath": "/usr/bin/gcc"
 }

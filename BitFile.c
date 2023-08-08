@@ -1,6 +1,6 @@
 /*! \file BitFile.c
- *  \brief Declarations of the bit_file methods.
- *  \author Peter C. Chapin <Peter.Chapin@vtc.vsc.edu>
+ *  \brief Declarations of the BitFile methods.
+ *  \author Peter Chapin <spicacality@kelseymountain.org>
  *  \warning This code has not been extensively tested!
  */
 
@@ -48,7 +48,7 @@ int open_bit( BitFile *bf, const char *the_name, BitFileMode the_mode )
  * \return The number of bytes actually read. If this is less than the number of bytes requested
  * then either an error occurred or the end of the file was encountered.
  */
-size_t read_bitheader( BitFile *bf, void *buffer, size_t number_of_bytes )
+size_t read_bit_header( BitFile *bf, void *buffer, size_t number_of_bytes )
 {
     if( bf->the_file == NULL || bf->mode == Bit_Out ) return 0;
     return fread( buffer, 1, number_of_bytes, bf->the_file );
@@ -97,7 +97,7 @@ int get_bit( BitFile *bf )
  * \return The number of bytes actually written. If this is less than the number of bytes
  * requested then an error occurred.
  */
-size_t write_bitheader( BitFile *bf, const void *buffer, size_t number_of_bytes )
+size_t write_bit_header( BitFile *bf, const void *buffer, size_t number_of_bytes )
 {
     if( bf->the_file == NULL || bf->mode == Bit_In ) return 0;
     return fwrite( buffer, 1, number_of_bytes, bf->the_file );
