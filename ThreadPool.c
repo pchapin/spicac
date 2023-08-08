@@ -4,7 +4,7 @@
  */
 
 #include <stdlib.h>
-#ifdef __GLIBC__
+#if defined(__GLIBC__) || defined(__CYGWIN__)
 #include <sys/sysinfo.h>  // For get_nprocs( ).
 #endif
 #include "ThreadPool.h"
@@ -108,7 +108,7 @@ void ThreadPool_initialize( ThreadPool *self )
 {
     int i;
 
-    #if __GLIBC__
+    #if defined(__GLIBC__) || defined(__CYGWIN__)
     self->pool_size = get_nprocs( );
     #else
     self->pool_size = pthread_num_processors_np( );

@@ -1,6 +1,12 @@
+/*!
+ * \file    main.c
+ * \brief   The main program for the test suite.
+ * \author  Peter Chapin <spicacality@kelseymountain.org>
+ */
 
 #include <CUnit/CUnit.h>
-#include <CUnit/CUCurses.h>
+#include <CUnit/Console.h>
+// #include <CUnit/CUCurses.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -37,7 +43,8 @@ int main( void )
         pool_suite    = CU_add_suite( "Thread Pool Tests", NULL, NULL );
         pool_tests[0] = CU_add_test( pool_suite, "Torture Test", thread_pool_torture );
 
-        CU_curses_run_tests( );
+        // CU_curses_run_tests( );
+        CU_console_run_tests( );
         CU_cleanup_registry( );
     }
     return exit_status;

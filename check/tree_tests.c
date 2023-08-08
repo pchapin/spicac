@@ -1,3 +1,8 @@
+/*!
+ * \file    tree_tests.c
+ * \brief   Tree testing functions.
+ * \author  Peter Chapin <spicacality@kelseymountain.org>
+ */
 
 #include <assert.h>
 #include <stdlib.h>

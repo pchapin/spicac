@@ -1,8 +1,7 @@
 /*! \file    thread_pool_tests.c
-    \brief   Simple test/demonstration program for ThreadPools
-    \author  Peter C. Chapin <PChapin@vtc.vsc.edu>
-
-*/
+ *  \brief   Simple test/demonstration program for ThreadPools
+ *  \author  Peter Chapin <spicacality@kelseymountain.org>
+ */
 
 #include <stdlib.h>
 #include <CUnit/CUnit.h>
