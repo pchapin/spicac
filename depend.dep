@@ -1,7 +1,10 @@
+BitFile.c
 hash.c
 Interval.c
+sema.c
 str.c
 ThreadPool.c
 Timer.c
 Tree.c
 Vector3.c
+WorkQueue.c

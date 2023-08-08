@@ -14,7 +14,7 @@ obj
 depend.out
 
 # Doxygen generated files.
-api
+doc/api
 
 # Open Watcom generated files.
 owbuild
@@ -30,6 +30,7 @@ SpicaC.lib
 
 # gcc generated files.
 *.o
+*.gcno
 libSpicaC.a
 check/CheckC
 
