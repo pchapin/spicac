@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "SpicaC Build",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-c",
+                "-Wall",
+                "-Wpedantic",
+                "-std=c99",
+                "${file}"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
