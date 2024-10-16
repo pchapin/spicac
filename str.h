@@ -1,7 +1,7 @@
 /*! \file str.h
  *  \brief Declarations of the string methods.
  *  \author Peter Chapin <spicacality@kelseymountain.org>
- *  \date September 11, 2015
+ *  \date October 16, 2024
  */
 
 #ifndef STR_H
@@ -12,9 +12,9 @@
 
 //! Abstract type representing unbounded, dynamic strings.
 typedef /*@abstract@*/ struct {
-    /*@null@*/ char   *start;     //!< Start of string allocation.
-               size_t  size;      //!< Number of characters in string.
-               size_t  capacity;  //!< Number of bytes of reserved space.
+    /*@only@*/ /*@null@*/ char *start;     //!< Start of string allocation.
+    size_t  size;      //!< Number of characters in string.
+    size_t  capacity;  //!< Number of bytes of reserved space.
 } string;
 
 

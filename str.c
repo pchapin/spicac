@@ -1,7 +1,7 @@
 /*! \file str.c
  *  \brief Definitions of the string methods.
  *  \author Peter Chapin <spicacality@kelseymountain.org>
- *  \date September 11, 2015
+ *  \date October 16, 2024
  *  \warning This code has not been extensively tested!
  *
  * The abstract type string is a C implementation of a dynamic string type. If you use the
